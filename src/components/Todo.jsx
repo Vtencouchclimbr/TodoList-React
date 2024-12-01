@@ -1,10 +1,14 @@
+import "./Todo.css";
+
 const Todo = ({ todo, toggleTodo, deleteTodo }) => {
   return (
-    <li className="d-flex justify-content-between align-items-center mb-2">
+    <li
+      className={`todo ${todo.completed ? 'completed' : ''}`}
+    >
       <span className="todoSpn" onClick={() => toggleTodo(todo.id)}>
         {todo.text}
       </span>
-      <button className="btn btn-danger" onClick={() => deleteTodo(todo.id)}>
+      <button className="todoBtn" onClick={() => deleteTodo(todo.id)}>
         Delete
       </button>
     </li>
