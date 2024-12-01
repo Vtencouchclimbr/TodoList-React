@@ -3,7 +3,8 @@ import "./Todo.css";
 const Todo = ({ todo, toggleTodo, deleteTodo }) => {
   return (
     <li
-      className={`todo ${todo.completed ? 'completed' : ''}`}
+      style={{ backgroundColor: "transparent", color: "#ddd" }}
+      className={`todo ${todo.completed ? "completed" : ""}`}
     >
       <span className="todoSpn" onClick={() => toggleTodo(todo.id)}>
         {todo.text}
