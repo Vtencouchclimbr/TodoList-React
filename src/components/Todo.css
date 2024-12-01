@@ -1,0 +1,32 @@
+.todo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd; /* Light border for separation */
+    border-radius: 5px;
+    background-color: #fff; /* White background for contrast */
+  }
+  
+  .todo.completed .todoSpn {
+    /* Strikethrough for completed items */
+    text-decoration: line-through;
+    color: #6c757d; /* Bootstrap's gray color */
+  }
+  
+  .todoSpn {
+    /* Make text take available space */
+    flex-grow: 1;
+    cursor: pointer;
+  }
+  
+  .todoBtn {
+    /* Using Bootstrap button class */
+    padding: 5px 10px;
+    background-color: #dc3545; /* Bootstrap's danger color */
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }

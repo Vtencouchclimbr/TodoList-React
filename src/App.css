@@ -1,6 +1,9 @@
 .App {
-  margin: 0;
-  padding: 0;
+  /* Using flex utilities for mobile */
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  padding: 20px;
   height: 100vh;
   width: 100%;
   background-image: url('./utils/meForest1.png'); /* Adjust path if necessary */
@@ -9,14 +12,16 @@
   background-position: center;
 }
 
-.todoCard {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 400px;
-  height: 100%;
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+.todoCard.card {
+  /* Card takes full width on mobile */
+  width: 100%;
+  max-width: 500px; /* Optional: limit maximum width for larger screens */
+  border: none; /* Remove border for cleaner look */
+  background-color: transparent; /* Keeping your transparent background */
+}
+
+h1 {
+  /* Mobile-friendly title size */
+  font-size: 1.5rem;
+  text-align: center;
 }

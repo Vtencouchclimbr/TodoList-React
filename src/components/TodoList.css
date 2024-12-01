@@ -1,0 +1,22 @@
+.todo-list {
+  /* Using Bootstrap classes for form layout */
+  form {
+    display: flex;
+    gap: 10px;
+  }
+
+  input[type="text"] {
+    flex-grow: 1;
+  }
+
+  .btn {
+    /* Ensure button aligns with input on mobile */
+    align-self: flex-start;
+  }
+
+  .todoList {
+    /* Remove default list styling */
+    list-style: none;
+    padding: 0;
+  }
+}
