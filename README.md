@@ -1,8 +1,76 @@
-# React + Vite
+# Trek Mate: A Hiking & Camping Companion App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Table of Contents
+1. [Project Overview](#project-overview)
+2. [Features](#features)
+3. [Technologies Used](#technologies-used)
+4. [Setup Instructions](#setup-instructions)
+8. [Featured Code](#featured-code)
+8. [License](#license)
+10. [Contributors](#contributors)
+10. [Questions](#questions)
 
-Currently, two official plugins are available:
+## Project Overview
+A simple todo list application built with React, featuring task creation, completion toggling, and deletion. Utilizes React hooks for state management and Bootstrap for responsive design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- **Create New Todos**: Users can input new tasks which are immediately added to the list.
+- **Mark as Complete**: Click on a todo to toggle its completion status, visually indicated by a strikethrough.
+- **Delete Todos**: Easily remove tasks that are no longer needed with a delete button.
+- **Mobile First**: Designed with a mobile-first approach, ensuring usability across all device sizes.
+
+## Technologies Used
+### **Frontend**:
+- React
+- Bootstrap for styling
+- ESLint for code quality
+
+## Setup Instructions
+### Prerequisites
+- Node.js (v14+)
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone [Repo URL]
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd TodoList-React
+   ```
+3. Install dependencies:
+   ```bash
+   npm run install
+   ```
+5. Start the development environment:
+   ```bash
+   npm run dev
+   ```
+6. Access the app at `http://localhost:5173`.
+
+## Featured Code
+Ternary applies class to alter gui display
+``` 
+className={`todo ${todo.completed ? "completed" : ""}`}
+```
+Prevent default and handle input
+```
+const handleSubmit = e => {
+    e.preventDefault();
+    if (newTodoText.trim()) {
+      addTodo(newTodoText.trim());
+      setNewTodoText("");
+    }
+  };
+```
+
+## License
+This project is licensed under the MIT license.
+
+## Contributors
+- [Jesse Anderson](https://github.com/Vtencouchclimbr)
+
+## Questions
+If you have any questions, please reach out to me:
+- Github: [vtencouchclimbr](https://github.com/vtencouchclimbr)
+- Email: lmntrylmnt@gmail.com
