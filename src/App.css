@@ -1,42 +1,27 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+.App {
+  /* Using flex utilities for mobile */
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  padding: 20px;
+  height: 100vh;
+  width: 100%;
+  background-image: url('./utils/meForest1.png'); /* Adjust path if necessary */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.todoCard.card {
+  /* Card takes full width on mobile */
+  width: 100%;
+  max-width: 500px; /* Optional: limit maximum width for larger screens */
+  border: none; /* Remove border for cleaner look */
+  background-color: transparent; /* Keeping your transparent background */
+}
+
+h1 {
+  /* Mobile-friendly title size */
+  font-size: 1.5rem;
   text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }
