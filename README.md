@@ -2,16 +2,20 @@
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
+1. [Deployed Site](#deployed-site)
 2. [Features](#features)
 3. [Technologies Used](#technologies-used)
 4. [Setup Instructions](#setup-instructions)
-8. [Featured Code](#featured-code)
-8. [License](#license)
-10. [Contributors](#contributors)
-10. [Questions](#questions)
+5. [Featured Code](#featured-code)
+6. [License](#license)
+7. [Contributors](#contributors)
+8. [Questions](#questions)
 
 ## Project Overview
 A simple todo list application built with React, featuring task creation, completion toggling, and deletion. Utilizes React hooks for state management and Bootstrap for responsive design.
+
+## Deployed Site
+[Deployed Site:](https://todo-react-jesse.netlify.app/)
 
 ## Features
 - **Create New Todos**: Users can input new tasks which are immediately added to the list.
