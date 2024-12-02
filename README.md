@@ -2,14 +2,14 @@
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
-1. [Deployed Site](#deployed-site)
-2. [Features](#features)
-3. [Technologies Used](#technologies-used)
-4. [Setup Instructions](#setup-instructions)
-5. [Featured Code](#featured-code)
-6. [License](#license)
-7. [Contributors](#contributors)
-8. [Questions](#questions)
+2. [Deployed Site](#deployed-site)
+3. [Features](#features)
+4. [Technologies Used](#technologies-used)
+5. [Setup Instructions](#setup-instructions)
+6. [Featured Code](#featured-code)
+7. [License](#license)
+8. [Contributors](#contributors)
+9. [Questions](#questions)
 
 ## Project Overview
 A simple todo list application built with React, featuring task creation, completion toggling, and deletion. Utilizes React hooks for state management and Bootstrap for responsive design.
