@@ -1,4 +1,4 @@
-# Trek Mate: A Hiking & Camping Companion App
+# Todo List
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
